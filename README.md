@@ -1,4 +1,4 @@
-# Monitoreo de la calidad de aire en la Universidad Autónoma de Occidente, Cali. - Proyecto Final
+# MONITOREO DE LA CALIDAD DE AIRE MEDIANTE SENSOR AIRBEAM EN LA UNIVERSIDAD AUTÓNOMA DE OCCIDENTE. - Proyecto Final
 ## Ingeniería de Datos e Inteligencia Artificial
 ### 2° Semestre
 ### Estudiantes
@@ -10,12 +10,14 @@
 
 ## 1. Definir el contexto en el que se ha recolectado la información, donde se explique por qué se ha escogido el sitio web y el contexto para la captura de datos.
     El proyecto que hemos empezado a llevar a cabo trata sobre una de las grandes problemáticas a nivel mundial: la contaminación del aire. El transporte, la generación de energía, las fuentes industriales y domésticas han dado lugar a la contaminación y a cambios en la composición del aire ambiente; además, esta puede afectar gravemente a la salud humana, causando problemas respiratorios, enfermedades cardíacas y cáncer.
+
     Nosotros como equipo, nos enfocamos en la Universidad Autónoma de Occidente, en donde además de ser un sitio de nuestro fácil acceso, posee ayudas como un sensor de monitoreo de la calidad del aire, en donde podremos recolectar muy buena información para la captura de datos y así poder abordar este proyecto.
-    Al momento de hacer el respectivo web scraping, nos basamos en https://aqicn.org/station/colombia/cali/call-51/es/ y https://waqi.info/es/#/c/-0.418/-59.302/3.8z,  y los escogimos ya que nos muestran de una manera factible el índice de calidad del aire en tiempo real. En el primer link podemos ver más a detalle el índice en ciertos sectores de la ciudad de Cali. Sin embargo, en el segundo podemos evidenciar  los datos a nivel mundial. Ambos clasifican sus niveles de índice en distintas escalas como: “bueno”, “moderado”, “no es saludable para grupos que son sensibles”, “insalubre”, “muy poco saludable” y por último “peligroso”; y además su manejo nos permite ver de una manera autónoma los datos para posteriormente realizar la respectiva comparación con la información del sensor de la Universidad.
+
+    Al momento de hacer el respectivo web scraping, nos basamos en https://aqicn.org/station/colombia/cali/call-51/es/ y https://waqi.info/es/#/c/-0.418/-59.302/3.8z; que son dos links con muy buena informaciòn y los escogimos ya que nos muestran de una manera factible el índice de calidad del aire en tiempo real. En el primer link podemos ver más a detalle el índice en ciertos sectores de la ciudad de Cali. Sin embargo, en el segundo podemos evidenciar  los datos a nivel mundial. Ambos clasifican sus niveles de índice en distintas escalas como: “bueno”, “moderado”, “no es saludable para grupos que son sensibles”, “insalubre”, “muy poco saludable” y por último “peligroso”; y además su manejo nos permite ver de una manera autónoma los datos para posteriormente realizar la respectiva comparación con la información del sensor de la Universidad.
 
 ## 2. Definir un título para el proyecto.
 
-    Monitoreo de la calidad de aire en la Universidad Autónoma de Occidente, Cali.
+    MONITOREO DE LA CALIDAD DE AIRE MEDIANTE SENSOR AIRBEAM EN LA UNIVERSIDAD AUTÓNOMA DE OCCIDENTE.
 
 ## 3. Antecedentes (5)
 
