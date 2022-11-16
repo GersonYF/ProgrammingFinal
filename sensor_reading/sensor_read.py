@@ -2,7 +2,8 @@ import utime
 import sys
 from MQ135 import MQ135
 
-filename = "mq_sensor_log.csv"
+now_time = utime.time()
+filename = f"mq_sensor_log-{now_time}.csv"
 
 # Create header row in new CSV file
 csv = open(filename, 'w')
@@ -13,12 +14,10 @@ try:
     print("Press CTRL+C to abort.\n")
     
     mq135 = MQ135()
-    
-    now_time = utime.time()
-    
+
     while True:
         perc135 = mq135.MQPercentage()
-
+        
         print("Medición MQ1350")
         print(
             f"""
@@ -33,7 +32,7 @@ try:
         )
         
         # Write values to csv file
-        timestamp = str(round((utime.time() - now_time) / 60))
+        timestamp = str(utime.time())
         entry = f"{timestamp}, {perc135['RAW_VALUE']}, {perc135['ACETON']}, {perc135['TOLUENO']}, {perc135['ALCOHOL']}, {perc135['CO2']}, {perc135['NH4']}, {perc135['CO']}\n"
 
         # Log (append) entry into file
